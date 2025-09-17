@@ -6,12 +6,125 @@ nav{
     padding-left: 140px;
     padding-right: 140px;
     box-shadow: 0px 0px 20px rgb(194, 211, 232); 
+
+    height: 80px;
+    position: sticky; 
+    top: 0;             
+    background-color: white; 
+    z-index: 1000; 
+    
 }
 .NavList{
     display: flex;
     list-style-type: none ;
     align-items: center;
     gap: 20px;
+}
+a{
+    color: black;
+}
+.RechageBills{
+    position: relative;
+}
+li{
+    list-style-type: none ;
+    padding-top: 20px;
+    margin: 0px;
+   
+}
+
+.shutter1{
+    margin-top: 5px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: none;
+    border-radius: 10px;
+    
+    
+    
+}
+.lists:hover{
+    background-color: rgba(0, 186, 242, 0.084);
+    color: rgb(0,186,242);
+}
+.ol1{
+   
+    padding: 10px;
+}
+.li1:hover > .shutter1 {
+    display: block;
+     box-shadow: 0px 0px 10px rgb(204, 204, 204);
+}
+   
+.TicketBooking{
+position: relative;
+}
+.shutter2{
+    margin-top: 5px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+    display: none;
+     border-radius: 10px;
+}
+.li2:hover > .shutter2 {
+    display: block;
+     box-shadow: 0px 0px 10px rgb(204, 204, 204);
+}
+.Payments{
+position: relative;
+}
+.shutter3{
+     margin-top: 5px;
+    background-color: white;
+    width: auto;
+   height: auto;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+    display: none;
+     border-radius: 10px;
+}
+.li3:hover > .shutter3 {
+    display: block;
+     box-shadow: 0px 0px 10px rgb(204, 204, 204);
+}
+.Bussiness{
+position: relative;
+}
+.shutter4{
+     margin-top: 5px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+    display: none;
+     border-radius: 10px;
+}
+.li4:hover > .shutter4 {
+    display: block;
+     box-shadow: 0px 0px 10px rgb(204, 204, 204);
+}
+.Company{
+position: relative;
+}
+.shutter5{ 
+     margin-top: 5px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+    display: none;
+     border-radius: 10px;
+}
+.li5:hover > .shutter5 {
+    display: block;
+     box-shadow: 0px 0px 10px rgb(204, 204, 204);
 }
 .img1{
     height: 30px;
@@ -187,14 +300,15 @@ spam{
     height:30px;
     background-color: rgb(0,184,245);
     color: white;
-     border-color: white;
+     border: 2px solid white;
 }
 .btn3{
      background-color:rgb(1,42,114);
      border-radius: 20px;
      height:30px;
+     width: 100px;
      color: white;
-     border-color: white;
+     border: 2px solid white;
 }
 .paytmtravel{
     background-color: rgb(232,248,253);
@@ -217,15 +331,182 @@ spam{
     height:60%;
     border-radius: 20px;
     display: flex;
+    font-size: 14px;
+    box-shadow: 0px 0px 1px black;
+    flex-direction: column;
+}
+.book1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+
+align-items: center;
+}
+.book2{
+    width: 100%;
+    height: 65px;
+    /* background-color: red; */
+    display: flex;
+    margin-top: -5px;
+}
+.book21{
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom:  20px;
+    border-right: 1.5px solid rgb(174, 172, 172);
+    padding-bottom: 10px;
+}
+.book22{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(73, 226, 43); */
+    border-right: 1.5px solid rgb(174, 172, 172);
+    padding-bottom: 10px;
+}
+.book23{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.b211{
+    padding-left: 20px;
+     padding-top:-50px;
+}
+.b212{
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.b213{
+    margin-left: 80px;
+}
+.b221{
+    margin-left: 20px;
+    width: 45%;
+    height: 100%;
+    border-right: 1.5px solid rgb(174, 172, 172);
+
+    padding-bottom: 10px;
+}
+.b222{
+        margin-left: 20px;
+    width: 45%;
+}
+.b231{
+     margin-top:0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.b232{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.places1{
+    width: 100%;
+    height: 100%;
+    margin-top: -0px;
+   
+}
+
+.b232btn{
+    background-color: rgb(0,186,242);
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+    font-weight: 500;
+}
+.under_line{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Specialfares{
+    width: 100%;
+    height:100%;
+    
+}
+.SF{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.SF1{
+    width: 30%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+     display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.sf12{
+    margin-top: -35px;
+    color: rgb(33,193,121);
+    font-weight: 600;
+}
+.sfh6{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.SF2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    }
+.SF21{
+    display: flex;
+    flex-direction: column;
+    gap: -100px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50%;
+    border: 1px solid rgb(170, 170, 170);
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.sf123{
+    font-weight: 500;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h12{
+    padding-top: -20px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .r1{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .r2{
-    margin-top: 30px;
+    margin-top: 10px;
      margin-left:50px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .travellogo{
     width:140px;
@@ -584,15 +865,301 @@ h5{
     border-radius: 20px;
     margin-top: 25px;
 }
-.about{
-     margin-top: 30px;
-    width: 100vw;
-    height: 800px;
+footer{
+    margin-top: 20px;
     background-color: whitesmoke;
 }
+footer {
+      background: #fff;
+      padding: 20px 100px;
+      border-top: 1px solid #ddd;
+    }
+
+    details {
+      border-bottom: 1px solid #eee;
+      padding: 10px 0;
+    }
+
+    summary {
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      list-style: none;
+      color: #777474;
+    }
+
+    
+
+    summary::before {
+      content: "+";
+      font-size: 18px;
+      font-weight: bold;
+      transition: transform 0.3s;
+      font-weight: 500;
+      font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    details[open] summary::before {
+      content: "x"; 
+    }
+
+    details p, details ul {
+      margin: 10px 0 0 15px;
+      font-size: 14px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 500;
+      color: #8d8787;
+
+    }
+
+    .social {
+      margin-top: 20px;
+     
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+    .social a {
+      margin-right: 10px;
+      font-weight: 500;
+      text-decoration: none;
+      font-family:  Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 18px;
+      color: #7a7a7a;
+    }
+.skybluecolor{
+    height: 15px;
+    width: 100%;
+    background-color: rgb(0,186,242);
+}
+.Darkblue{
+     height: 15px;
+    width: 100%;
+    background-color: rgb(0,41,112);
+}
 .main{
-    background-color: rgb(247,249,252);
+    background-color: rgb(247,249,252); 
 }
 a{
      text-decoration: none;
 }
+.li0{
+    display: none;
+}
+
+
+ @media (min-width:0px) and (max-width: 1200px){
+    nav{
+        .li1,.li2,.li3,.li4,.li5,.li6{
+            display: none;
+        }
+            .li0{
+            display: block;
+            margin-left: -150px;
+        }
+    }
+}
+@media (min-width:0px) and (max-width:750px){
+    nav{
+        .btn1{
+            width: 40px;
+        }   
+        .signin{
+            display: none;
+    
+        }
+        .img1{
+            margin-left: auto;
+            
+        }
+        .li0{
+            display: block;
+            margin-left: -150px;
+        }
+        
+    }
+    
+}
+@media (min-width:0px) and (max-width:1500px){
+
+        .main{
+            width: 100%;
+            .Division1{
+                width: 100%;
+                .R_B{
+                    width: 100%;
+                .Recharges{
+                   .RB1{
+                       .RB{
+                        width: auto;
+                        height: auto;
+                       }
+                       
+                   }
+                   .RB2{
+                        margin-left: 6px;
+                       }
+                }
+                .Bills{
+                   .RB1{
+                       .RB{
+                        width: auto;
+                        height: auto;
+                       }
+                   }
+                   .RB21{
+                        margin-left: 6px;
+                        
+                       }
+                }
+                 }
+            }
+
+        }
+}
+@media (min-width:1020px) and (max-width:1200px){
+     .RB21{
+                        margin-left: 6px;
+                        .matter2{
+                            font-size:13px;
+                        }
+                       }
+     .RB2{
+                        margin-left: 6px;
+                        .matter1{
+                            font-size:13px;
+                            width: 240px;
+                        }
+                        .btn22{
+                            .btn2{
+                                width: 100px;
+                                height: 40px;
+                            }
+
+                        }
+                       }
+}
+@media (min-width:300px) and (max-width:1020px){
+    .main{
+      
+            .Division1{
+                height: max-content;
+                .R_B{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 60px;
+                     height: auto;
+                .Recharges{
+                    margin-top: 20px;
+                    width: auto;
+                    height: auto;
+                        .RB2{
+                            margin-left: 30px ;
+                            margin-bottom: 20px;
+                        }
+                }
+                .Bills{
+                    width: auto;
+                    height: auto;
+                    .RB21{
+                            margin-left: 30px ;
+                            margin-bottom: 20px;
+                        }
+                }
+            }
+            .R_Bimages{
+                display: flex;
+                flex-direction: column;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                height: auto;
+            }
+        }
+    }
+}
+@media (min-width:950px) and (max-width:1620px){
+    .main{
+        .store{
+            height: auto;
+                .store1{
+                width: 50%;
+                height: 50%;
+
+            }
+            .store2{
+                width: 100%;
+                height: 100%;
+
+            }
+            .store13{
+                margin-bottom: 20px;
+            }
+        }
+        .online_offline{
+             height: auto;
+             padding-bottom: 30px;
+            .OF1{
+                 width: 50%;
+                height: 50%;
+            }
+            .OF2{
+                 width: 100%;
+                height: 100%;
+
+            }
+        }
+    }
+}
+@media (min-width:300px) and (max-width:950px){
+    .main{
+        width: 100vw;
+        .cred_insu{
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .store{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+                .store1{
+                width: auto;
+                height: auto;
+                padding-right: 20px;
+
+            }
+            .store2{
+                width: 100%;
+                height: 100%;
+
+            }
+            .store13{
+                margin-bottom: 20px;
+            }
+        }
+        .online_offline{
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px;
+
+             height: auto;
+             padding-bottom: 30px;
+            .OF1{
+                 width: auto;
+                height: auto;
+            }
+            .OF2{
+                 width: 100%;
+                height: 100%;
+
+            }
+        }
+    }
+}
+ 
